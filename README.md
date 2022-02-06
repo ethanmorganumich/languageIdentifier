@@ -16,6 +16,7 @@ Solution:
 -  **English**
 -  Estionian
 -  Finnish
+-  French
 -  **German**
 -  Greek
 -  Hungarian
