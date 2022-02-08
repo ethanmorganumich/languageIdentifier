@@ -1,13 +1,10 @@
 #Author: Ethan Morgan
 #uniqname: etcmo
 
-from concurrent import futures
 import sys
 import os
 import math
 import json
-
-from attr import field
 
 
 #purpose: 
@@ -112,8 +109,10 @@ def personMode(languages, languageCharacterFreq, languageBigramCharacterFreq):
     while(True):
         print("Write your language:")
         text = input()
-        if text == "q":
+        if text == "q" or text == "quit":
             return
+        if len(text) == 0:
+            continue
         print(identifyLanguage(text, languages, languageCharacterFreq, languageBigramCharacterFreq))
 
 if __name__ == '__main__':    

@@ -8,7 +8,7 @@ Solution:
     So currently this has no ML/AI, only pure Statistics using unigram and bigram model to compute for the percentage.
 
 
-### Supported Languages (21 Languages!!!):
+### Supported Languages (22 Languages!!!):
 -  Bulgarian
 -  Czech
 -  Danish
